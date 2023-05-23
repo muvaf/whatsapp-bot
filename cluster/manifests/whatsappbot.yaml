@@ -23,7 +23,7 @@ spec:
             - name: IP_ADDR
               value: selenium-grid
             - name: PHONE_NUMBER_ME
-              value: "905549707942"
+              value: "13479998877"
           ports:
             - containerPort: 4444
               protocol: TCP
