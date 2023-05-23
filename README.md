@@ -65,6 +65,8 @@ nodes:
 EOF
 ```
 
+![kind cluster created](./instructions/images/kind-created.png)
+
 Once it's ready, install Ingress-Nginx. This will accept all the traffic coming
 into our virtual machine.
 
@@ -93,8 +95,20 @@ change `13479998877` to your phone number - the country code is included.
    kubectl apply -f cluster/manifests
    ```
 
-### Access
+You should see everything up and running when you run the following commands.
+```bash
+kubectl get pods
+```
+```bash
+kubectl get services
+```
+```bash
+kubectl get ingress
+```
 
+![kubectl get](./instructions/images/kubectl-get.png)
+
+### Access
 
 #### Under Public Domain
 
